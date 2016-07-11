@@ -1,0 +1,26 @@
+* {
+  font-family: ubunturegular;
+}
+
+#corpo {
+  margin-top: 25px;
+}
+
+.busca-principal.columns {
+  margin-bottom: 20px;
+}
+
+.lista-vagas__vaga:not(:last-of-type)::after {
+  content: " ------ ";
+  text-shadow: 1px 1px 1px #999;
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+}
+.lista-vagas__vaga:last-of-type {
+  margin-bottom: 30px;
+}
+
+.padding-porques {
+  padding: 50px 30px;
+}

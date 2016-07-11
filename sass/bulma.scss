@@ -1,0 +1,28 @@
+// bulma .forms
+.control:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+.control + .help {
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+
+.control.senha-field {
+  .valida-senha {
+    padding-right: 45px;
+    position: relative;
+  }
+}
+
+.valid::after {
+  content: '\f058';
+  display: inline-block;
+  font-family: FontAwesome;
+  position: absolute;
+  right: 60px;
+  z-index: 9;
+  font-size: 20px;
+  top: 5px;
+  color: #97cd76;
+}

@@ -1,0 +1,6 @@
+@each $size in $pv {
+  .pv#{$size} {
+    padding-top: #{$size}px;
+    padding-bottom: #{$size}px;
+  }
+}

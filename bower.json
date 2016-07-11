@@ -1,0 +1,26 @@
+{
+  "name": "Banco de Oportunidades - Facomp",
+  "authors": [
+    "Gabriel Prates <gabsprates@gmail.com>"
+  ],
+  "description": "Cadastro de vagas e currículos de/para alunos e egressos da Facomp",
+  "main": "",
+  "keywords": [
+    "facomp",
+    "emprego"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bulma": "^0.0.26",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}
