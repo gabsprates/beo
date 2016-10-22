@@ -1,3 +1,7 @@
+html {
+  background-color: #fff;
+}
+
 // bulma .forms
 .control:not(:last-of-type) {
   margin-bottom: 20px;
@@ -25,4 +29,17 @@
   font-size: 20px;
   top: 5px;
   color: #97cd76;
+}
+
+.nav {
+  box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+
+.footer {
+  border-top: 2px solid #DAE9FF;
+  background: #fff;
+}
+
+.section {
+  background: none;
 }

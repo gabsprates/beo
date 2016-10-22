@@ -79,7 +79,7 @@
   </div>
 </nav>
 
-<section>
+<section class="bg_padrao">
   <?php
 
   $URL = isset($_GET['pag']) ? $_GET['pag'] : "home";
