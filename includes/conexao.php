@@ -1,13 +1,10 @@
 <?php
-	$servidor = "localhost";
-	$usuario  = "root";
-	$senha 	  = "root";
+// definições de host, database, usuário e senha
+$servidor = "localhost";
+$usuario  = "root";
+$senha 	  = "root";
+$banco = "curriculoFacomp";
 
-	// Criando a conexão
-	$conn = new mysqli($servidor, $usuario, $senha);
-
-	// Conferindo a conexão
-	if ($conn->connect_error) {
-	    die("A Conexão falhou: " . $conn->connect_error);
-	} 
-	//echo "Conexão efetuada com sucesso!";
+// Criando a conexão
+$link = mysqli_connect($servidor, $usuario, $senha, $banco)or die(mysqli_connect_error());
+mysqli_set_charset($link, "utf8")or die(mysqli_error($link));
