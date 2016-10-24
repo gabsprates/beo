@@ -16,7 +16,7 @@
 
       <label class="label has-text-left">Telefone:</label>
       <div class="control has-icon has-icon-right">
-        <input placeholder="Telefone" class="input is-medium" name="Telefone" type="number" required />
+        <input placeholder="Telefone" class="input is-medium" name="telefone" type="number" required />
       </div>
 
       <label class="label has-text-left">Telefone Alternativo:</label>
