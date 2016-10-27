@@ -20,7 +20,7 @@
     </div>
 
     <div class="nav-center">
-      <a class="nav-item" href="#">
+      <a class="nav-item" href="./#">
         FACOMP
       </a>
     </div>
@@ -44,7 +44,7 @@
         </a>
       </span>
       <span class="nav-item is-tab">
-        <a class="button is-info" href="#">
+        <a class="button is-info" href="./?pag=empresa/cadastro">
           <span class="icon">
             <i class="fa fa-object-group"></i>
           </span>

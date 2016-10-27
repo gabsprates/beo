@@ -1,3 +1,5 @@
+<?php include("includes/conexao.php"); ?>
+
 <section class="container pv30 has-text-centered sides-pd-768">
   <h1 class="title">Cadastro de Candidatos</h1>
   <h2 class="subtitle">Preencha os seus dados de acesso.</h2>
