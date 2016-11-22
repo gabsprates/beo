@@ -35,7 +35,10 @@
       <a class="nav-item" href="#">
         Sobre
       </a>
-      <span class="nav-item">
+      <a class="nav-item" href="#">
+        Olá Usuário, bem vindo.
+      </a>
+      <!-- <span class="nav-item">
         <a class="button is-primary" href="#">
           <span class="icon">
             <i class="fa fa-users"></i>
@@ -50,7 +53,7 @@
           </span>
           <span>Empresas</span>
         </a>
-      </span>
+      </span> -->
       <!-- <span class="nav-item">
         <a class="button is-info" href="#">
           <span class="icon">
@@ -67,14 +70,16 @@
           <span>Meu Currículo</span>
         </a>
       </span>
-      <span class="nav-item">
-        <a class="button is-warning" href="#">
+     -->
+
+      <span class="nav-item is-tab">
+        <a class="button is-danger" href="#">
           <span class="icon">
             <i class="fa fa-sign-out"></i>
           </span>
           <span>Sair</span>
         </a>
-      </span> -->
+      </span>
     </div>
   </div>
 </nav>
