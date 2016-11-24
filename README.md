@@ -29,6 +29,6 @@ As páginas estão todas no diretório `includes/`, divididas em:
 
 ## TODO
 
-* [ ] Finalizar telas da área do candidato
+* [x] Finalizar telas da área do candidato
 * [ ] Integração com a base de dados
-* [ ] Interfaces da área da empresa
+* [x] Interfaces da área da empresa
